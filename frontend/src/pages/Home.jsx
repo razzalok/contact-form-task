@@ -5,22 +5,6 @@ import { useAuthContext } from "../hooks/useAuthContex";
 import Card from "../components/Card";
 const Home = () => {
   const { user } = useAuthContext();
-  console.log(user);
-  //   useEffect(() => {
-  //     const fetchWorkouts = async () => {
-  //       const response = await fetch("/api/workouts", {
-  //         headers: { Authorization: `Bearer ${user.token}` },
-  //       });
-  //       const json = await response.json();
-
-  //       if (response.ok) {
-  //         dispatch({ type: "SET_WORKOUTS", payload: json });
-  //       }
-  //     };
-  //     if (user) {
-  //       fetchWorkouts();
-  //     }
-  //   }, [user]);
   return (
     <div className="home">
       <div className="hero-section mb-3">
