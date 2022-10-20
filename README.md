@@ -4,7 +4,9 @@
 
 ### PROJECT DESCRIPTION
 *This is a contact page of any website, authenticated user can see the homepage and send us a contact message. In this application user can signup or login, once they authenticate themself they can view our homepage and send us a contact message and their message will be stored in our database.*
-<a herf="https://contact-form-task.herokuapp.com/">Click here</a>
+
+
+[click here](https://contact-form-task.herokuapp.com/)
 *logged in user home page*
 ![](readmeImage/fullpage.png)
 
